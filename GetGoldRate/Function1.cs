@@ -70,7 +70,7 @@ namespace GetGoldRate
                 TemplateId = "fb09a5fb-8bc3-4183-b648-dc6d48axxxxx",
                 ////If you have html ready and dont want to use Template's   
                 //PlainTextContent = "Hello, Email!",  
-                //HtmlContent = "<strong>Hello, Email!</strong>",  
+                 
             };
             //if you have multiple reciepents to send mail  
             msgs.AddTo(new EmailAddress("mathinath.ali@gds.ey.com", "Ali"));            
