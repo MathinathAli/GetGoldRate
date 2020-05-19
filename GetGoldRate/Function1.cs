@@ -16,7 +16,7 @@ namespace GetGoldRate
         [FunctionName("FnGetGoldPrice")]
         public static async void Run([TimerTrigger("* 30 14 * * *")]TimerInfo myTimer, ILogger log)
         {
-            string sendgrid_api = "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";
+            string sendgrid_api = "test";
             SqlConnection con = new SqlConnection("Server=tcp:db-server-track.database.windows.net,1433;Initial Catalog=db-rate-track;Persist Security Info=False;User ID=username;Password=Password@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"); 
             try
             {
